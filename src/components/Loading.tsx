@@ -1,6 +1,6 @@
 import Spinner, { SpinnerProps } from './Spinner'; // Adjust the path to the actual location of the Spinner component
 
-interface LoadingProps extends SpinnerProps {
+export interface LoadingProps extends SpinnerProps {
   message?: string;
 }
 
